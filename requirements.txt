@@ -1,0 +1,6 @@
+numpy
+tables
+pandas
+matplotlib
+h5py
+PyQt5
