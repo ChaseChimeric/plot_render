@@ -9,23 +9,41 @@ I'll try to keep the code I used updated at https://github.com/ChaseChimeric/plo
 Below is an example of my current working file structure
 
 jupyter_stuff/
+
 ├─ datasets/
+
 │  ├─ QTN_merged_199X.h5
+
 │  ├─ TNR_results_199X.h5
+
 │  ├─ MFI_GSE_merged_one_sec.h5
+
 │  ├─ BS_pass.h5
+
 │  ├─ gse_position_199X.h5
+
 │  ├─ wi_ors_pre_1996.cdf
+
 │  ├─ extract_gse.py
+
 ├─ notebooks/
+
 │  ├─ render.py
+
 │  ├─ render_outbound.py
+
 │  ├─ render_to_show.ipynb
+
 │  ├─ pass1/
+
 │  │  ├─ animated_plot0.mp4
+
 │  │  ├─ animated_plot1.mp4
+
 │  ├─ pass2/
+
 │  ├─ pass.../
+
 
 ## datasets/
 contains all of the larger hdf5/cdf databases that I work off of.
